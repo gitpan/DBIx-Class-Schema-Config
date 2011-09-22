@@ -1,15 +1,13 @@
 ---
-abstract: 'Manage connection credentials for DBIx::Class::Schema in a file.'
+abstract: ''
 author:
   - 'SymKat I<<symkat@symkat.com>>'
 build_requires:
-  ExtUtils::MakeMaker: 6.42
+  DBD::SQLite: 0
   Test::MockObject: 1.09
   Test::More: 0.42
-configure_requires:
-  ExtUtils::MakeMaker: 6.42
 distribution_type: module
-generated_by: 'Module::Install version 1.01'
+generated_by: 'Module::Install version 0.76'
 license: bsd
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -22,6 +20,4 @@ no_index:
 requires:
   DBIx::Class: 0.08100
   perl: 5.005
-resources:
-  license: http://opensource.org/licenses/bsd-license.php
-version: 0.001000
+version: 0.001002

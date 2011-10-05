@@ -4,7 +4,7 @@ use warnings;
 use strict;
 use base 'DBIx::Class::Schema';
 
-our $VERSION = '0.001003'; # 0.1.3
+our $VERSION = '0.001004'; # 0.1.4
 $VERSION = eval $VERSION;
 
 sub connection {

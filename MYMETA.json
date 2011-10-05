@@ -1,0 +1,41 @@
+{
+   "abstract" : "Credential Management for DBIx::Class ",
+   "author" : [
+      "SymKat I<<symkat@symkat.com>>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Module::Install version 0.76, CPAN::Meta::Converter version 2.112150",
+   "license" : [
+      "bsd"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "DBIx-Class-Schema-Config",
+   "no_index" : {
+      "directory" : [
+         "inc",
+         "t"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : 0
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Config::Any" : "0.23",
+            "DBD::SQLite" : 0,
+            "DBIx::Class" : "0.08100",
+            "ExtUtils::MakeMaker" : "6.59",
+            "Test::MockObject" : "1.09",
+            "Test::More" : "0.42"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "version" : "0.001006"
+}

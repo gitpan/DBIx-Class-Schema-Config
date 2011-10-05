@@ -3,12 +3,9 @@ abstract: 'Credential Management for DBIx::Class '
 author:
   - 'SymKat I<<symkat@symkat.com>>'
 build_requires:
-  Config::Any: 0.23
-  DBD::SQLite: 0
-  Test::MockObject: 1.09
-  Test::More: 0.42
-distribution_type: module
-generated_by: 'Module::Install version 0.76'
+  ExtUtils::MakeMaker: 0
+dynamic_config: 0
+generated_by: 'Module::Install version 0.76, CPAN::Meta::Converter version 2.112150'
 license: bsd
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -20,6 +17,9 @@ no_index:
     - t
 requires:
   Config::Any: 0.23
+  DBD::SQLite: 0
   DBIx::Class: 0.08100
-  perl: 5.005
+  ExtUtils::MakeMaker: 6.59
+  Test::MockObject: 1.09
+  Test::More: 0.42
 version: 0.001006

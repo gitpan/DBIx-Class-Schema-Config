@@ -22,4 +22,4 @@ requires:
   Config::Any: 0.23
   DBIx::Class: 0.08100
   perl: 5.005
-version: 0.001004
+version: 0.001005

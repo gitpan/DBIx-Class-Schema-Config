@@ -20,7 +20,7 @@ t/03_config_paths.t
 t/04_integration_test.t
 t/05_integration_plugin.t
 t/06_on_credential_load.t
-t/etc/config.yaml
+t/etc/config.perl
 t/lib/DBIx/Class/Schema/Config/Plugin.pm
 t/lib/DBIx/Class/Schema/Config/Plugin/Hash.pm
 t/lib/DBIx/Class/Schema/Config/Test.pm

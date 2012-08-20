@@ -9,7 +9,7 @@ build_requires:
   Test::More: 0.42
 distribution_type: module
 generated_by: 'Module::Install version 0.76'
-license: bsd
+license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
@@ -21,5 +21,8 @@ no_index:
 requires:
   Config::Any: 0.23
   DBIx::Class: 0.08100
+  File::HomeDir: 0
   perl: 5.005
-version: 0.001006
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.001007

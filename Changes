@@ -1,6 +1,11 @@
+0.1.7
+    - Use File::HomeDir instead of env, thanks @ Christian Walde
+    - CHANGELOG -> Changes
+    - BSD License -> Perl License
+    - README.pod -> Readme.md
+    - Contributor Addition (Christian Walde)
 0.1.6
     - Once more with feeling.
-    - Oh, and 5 releases later I've added that LICENSE file...
 0.1.5
     - Re-release due to broken MANIFEST.skip and outdated README.pod
 0.1.4 

@@ -1,5 +1,5 @@
 ---
-abstract: 'Credential Management for DBIx::Class '
+abstract: 'Credential Management for DBIx::Class'
 author:
   - 'Kaitlyn Parkhurst (SymKat) I<<symkat@symkat.com>> ( Blog: L<http://symkat.com/> )'
 build_requires:
@@ -29,4 +29,4 @@ requires:
   perl: 5.005
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.001009
+version: 0.001010
